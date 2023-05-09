@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_135e25a76191f4c6041278933786f267 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_135e25a76191f4c6041278933786f267" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_135e25a76191f4c6041278933786f267 = L.map(
+                "map_135e25a76191f4c6041278933786f267",
+                {
+                    center: [37.536037826538085, 126.98781814575196],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ae78173aaa9bc5bcfcc3e58060be52cf = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_135e25a76191f4c6041278933786f267);
+        
+    
+            var marker_cluster_f58dbb852a354dbde15b789b76f49727 = L.markerClusterGroup(
+                {}
+            );
+            map_135e25a76191f4c6041278933786f267.addLayer(marker_cluster_f58dbb852a354dbde15b789b76f49727);
+        
+    
+            var marker_6a786390f0b5f895b1523770da3c600f = L.marker(
+                [37.525577545166016, 127.0422592163086],
+                {}
+            ).addTo(marker_cluster_f58dbb852a354dbde15b789b76f49727);
+        
+    
+        var popup_fb08475f696a9ac3e857d4fb37a72509 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff0da272e90a9f9efecb5b18ba59259d = $(`<div id="html_ff0da272e90a9f9efecb5b18ba59259d" style="width: 100.0%; height: 100.0%;">미미카페 (서울 강남구 청담동 83-14)</div>`)[0];
+                popup_fb08475f696a9ac3e857d4fb37a72509.setContent(html_ff0da272e90a9f9efecb5b18ba59259d);
+            
+        
+
+        marker_6a786390f0b5f895b1523770da3c600f.bindPopup(popup_fb08475f696a9ac3e857d4fb37a72509)
+        ;
+
+        
+    
+    
+            var marker_b32be86c7f1170119ddf26e071b17502 = L.marker(
+                [37.499229431152344, 127.00615692138672],
+                {}
+            ).addTo(marker_cluster_f58dbb852a354dbde15b789b76f49727);
+        
+    
+        var popup_ea779f6baaf35d8d1428b88c10084491 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4d94a1a8f9fdbfd5d1c733d5c863aaa = $(`<div id="html_a4d94a1a8f9fdbfd5d1c733d5c863aaa" style="width: 100.0%; height: 100.0%;">봉은사랑 (서울 서초구 반포4동 62-4)</div>`)[0];
+                popup_ea779f6baaf35d8d1428b88c10084491.setContent(html_a4d94a1a8f9fdbfd5d1c733d5c863aaa);
+            
+        
+
+        marker_b32be86c7f1170119ddf26e071b17502.bindPopup(popup_ea779f6baaf35d8d1428b88c10084491)
+        ;
+
+        
+    
+    
+            var marker_080239d4a4309464b57565ff6bc3491a = L.marker(
+                [37.5701904296875, 126.98633575439453],
+                {}
+            ).addTo(marker_cluster_f58dbb852a354dbde15b789b76f49727);
+        
+    
+        var popup_41fc5a9d1c17d66ea4f1ace23583ac06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03c1443709ab8692ded5207fa6de5e99 = $(`<div id="html_03c1443709ab8692ded5207fa6de5e99" style="width: 100.0%; height: 100.0%;">삼육면옥 (서울 종로구 종로5가 19-1)</div>`)[0];
+                popup_41fc5a9d1c17d66ea4f1ace23583ac06.setContent(html_03c1443709ab8692ded5207fa6de5e99);
+            
+        
+
+        marker_080239d4a4309464b57565ff6bc3491a.bindPopup(popup_41fc5a9d1c17d66ea4f1ace23583ac06)
+        ;
+
+        
+    
+    
+            var marker_aa3c8aad57ec152dc1eca50db9b18ffb = L.marker(
+                [37.5245475769043, 127.04154205322266],
+                {}
+            ).addTo(marker_cluster_f58dbb852a354dbde15b789b76f49727);
+        
+    
+        var popup_0c966b11e744f32637e1decd7b5d6699 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38bcfdf115f5a64e28bad7a49f6cbeec = $(`<div id="html_38bcfdf115f5a64e28bad7a49f6cbeec" style="width: 100.0%; height: 100.0%;">화로상회 (서울 강남구 청담동 128-4)</div>`)[0];
+                popup_0c966b11e744f32637e1decd7b5d6699.setContent(html_38bcfdf115f5a64e28bad7a49f6cbeec);
+            
+        
+
+        marker_aa3c8aad57ec152dc1eca50db9b18ffb.bindPopup(popup_0c966b11e744f32637e1decd7b5d6699)
+        ;
+
+        
+    
+    
+            var marker_36f22b0b6db24215e4fcc00b5db09daa = L.marker(
+                [37.5661506652832, 126.98298645019531],
+                {}
+            ).addTo(marker_cluster_f58dbb852a354dbde15b789b76f49727);
+        
+    
+        var popup_b6909ac5fa4a259c28425af46e9aa6f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00775f54090c6e4db4ebc312b658d224 = $(`<div id="html_00775f54090c6e4db4ebc312b658d224" style="width: 100.0%; height: 100.0%;">서울우유아이스크림 (서울 중구 을지로1가 148-1)</div>`)[0];
+                popup_b6909ac5fa4a259c28425af46e9aa6f0.setContent(html_00775f54090c6e4db4ebc312b658d224);
+            
+        
+
+        marker_36f22b0b6db24215e4fcc00b5db09daa.bindPopup(popup_b6909ac5fa4a259c28425af46e9aa6f0)
+        ;
+
+        
+    
+    
+            var marker_853949c68472751ad3fa54c64492108b = L.marker(
+                [37.55891418457031, 126.9461441040039],
+                {}
+            ).addTo(marker_cluster_f58dbb852a354dbde15b789b76f49727);
+        
+    
+        var popup_52b10f00c704faaa1c2b3986fcd43644 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4f955735b441cc057df22d526b1390b = $(`<div id="html_c4f955735b441cc057df22d526b1390b" style="width: 100.0%; height: 100.0%;">버거 박사 (서울 서대문구 창천동 28-2)</div>`)[0];
+                popup_52b10f00c704faaa1c2b3986fcd43644.setContent(html_c4f955735b441cc057df22d526b1390b);
+            
+        
+
+        marker_853949c68472751ad3fa54c64492108b.bindPopup(popup_52b10f00c704faaa1c2b3986fcd43644)
+        ;
+
+        
+    
+    
+            var marker_723e63354fba39954b4a352b4e82437f = L.marker(
+                [37.57395553588867, 126.99053955078125],
+                {}
+            ).addTo(marker_cluster_f58dbb852a354dbde15b789b76f49727);
+        
+    
+        var popup_9ac746c725b95b1cbb4dfe95e9cbec1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6636ebb53d626b6c086fdccb00f48d13 = $(`<div id="html_6636ebb53d626b6c086fdccb00f48d13" style="width: 100.0%; height: 100.0%;">무교동 북어국집 (서울 종로구 무교로 5)</div>`)[0];
+                popup_9ac746c725b95b1cbb4dfe95e9cbec1c.setContent(html_6636ebb53d626b6c086fdccb00f48d13);
+            
+        
+
+        marker_723e63354fba39954b4a352b4e82437f.bindPopup(popup_9ac746c725b95b1cbb4dfe95e9cbec1c)
+        ;
+
+        
+    
+    
+            var marker_7a9f3241aaa818bf320d209251be05e3 = L.marker(
+                [37.4947395324707, 127.02203369140625],
+                {}
+            ).addTo(marker_cluster_f58dbb852a354dbde15b789b76f49727);
+        
+    
+        var popup_38c6cb2d89f52edd12ab8f65726f5dde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3da4a63e38910caee8e4a999e309a320 = $(`<div id="html_3da4a63e38910caee8e4a999e309a320" style="width: 100.0%; height: 100.0%;">정돈 (서울 서초구 서초4동 1307-23)</div>`)[0];
+                popup_38c6cb2d89f52edd12ab8f65726f5dde.setContent(html_3da4a63e38910caee8e4a999e309a320);
+            
+        
+
+        marker_7a9f3241aaa818bf320d209251be05e3.bindPopup(popup_38c6cb2d89f52edd12ab8f65726f5dde)
+        ;
+
+        
+    
+    
+            var marker_c75d818711c6e692eac46dc191f20eff = L.marker(
+                [37.56061553955078, 126.8411865234375],
+                {}
+            ).addTo(marker_cluster_f58dbb852a354dbde15b789b76f49727);
+        
+    
+        var popup_545d53210e258ddd90238348edc36759 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bd26ea4b453c4a07829f7e37c93b93d = $(`<div id="html_0bd26ea4b453c4a07829f7e37c93b93d" style="width: 100.0%; height: 100.0%;">가양역 족발집 (서울 강서구 가양동 1460-15)</div>`)[0];
+                popup_545d53210e258ddd90238348edc36759.setContent(html_0bd26ea4b453c4a07829f7e37c93b93d);
+            
+        
+
+        marker_c75d818711c6e692eac46dc191f20eff.bindPopup(popup_545d53210e258ddd90238348edc36759)
+        ;
+
+        
+    
+    
+            var marker_0bc4a2a6cdf694b4fb450af127ee17d8 = L.marker(
+                [37.48645782470703, 127.01899719238281],
+                {}
+            ).addTo(marker_cluster_f58dbb852a354dbde15b789b76f49727);
+        
+    
+        var popup_87b4b1b2a0ff86fe73242046f827592f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_733afb50668b0ff117e3646eb24845db = $(`<div id="html_733afb50668b0ff117e3646eb24845db" style="width: 100.0%; height: 100.0%;">순남시래기 (서울 서초구 서초3동 1436-18)</div>`)[0];
+                popup_87b4b1b2a0ff86fe73242046f827592f.setContent(html_733afb50668b0ff117e3646eb24845db);
+            
+        
+
+        marker_0bc4a2a6cdf694b4fb450af127ee17d8.bindPopup(popup_87b4b1b2a0ff86fe73242046f827592f)
+        ;
+
+        
+    
+</script>
+</html>
